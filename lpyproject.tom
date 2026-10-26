@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "time-travel-debugger-mcp"
+version = "1.2.0"
+description = "AI Agent Time-Travel Debugger, SQLite Shadow Snapshot & Instant Rollback Engine MCP Server"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "Jitendra Kumar", email = "jitendrakumar-ai@users.noreply.github.com"}
+]
+keywords = ["mcp", "model-context-protocol", "debugging", "time-travel", "rollback", "sqlite"]
+dependencies = []
+
+[project.scripts]
+time-travel-debugger-mcp = "time_travel_debugger_mcp:main"
