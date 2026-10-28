@@ -1,0 +1,6 @@
+startCommand:
+  type: stdio
+  config:
+    command: python3
+    args:
+      - time_travel_debugger_mcp.py
